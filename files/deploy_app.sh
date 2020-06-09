@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. Come for the kittens, stay for the coffee. Additional funny slogan. This should succeed now with tags!
+  Welcome to ${PREFIX}'s app. Come for the kittens, stay for the coffee. Additional funny slogan. This should succeed now with tags! Hopefully no Apache failures.
   <!-- END -->
 
   </div>
